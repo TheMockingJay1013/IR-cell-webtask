@@ -1,0 +1,63 @@
+body{
+    background-color: aliceblue;
+}
+/* The college grids */
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.college{
+    background-color: white;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.collegeimg{
+    object-fit:contain;
+    margin: 5px;
+}
+.collegeinfo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.selected-page{
+    background-color: #10151d;
+    align-content: center;
+    height:70px;
+}
+.applybutton{
+    color: white;
+    text-align: center;
+    background-color:rgb(32, 43, 59);
+    margin:5px;
+}
+.continent-buttons{
+    width: 225px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.Message{
+    background-color: white;
+    width: 800px;
+    margin-top: 150px;
+    height: 300px;
+    padding: 70px;
+    margin-left:300px ;
+    text-align: center;
+}
+.newbox{
+    margin-left:300px ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 800px;
+    height: fit-content;
+}
